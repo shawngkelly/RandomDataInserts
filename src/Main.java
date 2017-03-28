@@ -1,13 +1,11 @@
 /**
  * Created by Shawn on 2/23/2017.
  */
-import java.io.FileNotFoundException;
+
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.Random;
 import java.util.Scanner;
-import java.sql.Date;
 import java.time.*;
 
 
@@ -76,6 +74,7 @@ public class Main {
                 LocalDateTime.now().minusDays(daysBack).plusHours(hours).minusMinutes(minsBack).minusSeconds(secondsBack) + "');\n" );
             }
         outPutFile.close();
+
 
         }
     }
